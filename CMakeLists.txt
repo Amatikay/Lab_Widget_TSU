@@ -16,8 +16,12 @@ find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets)
 
 set(PROJECT_SOURCES
         main.cpp
-        win.h
-        win.cpp
+        figura.h
+        figura.cpp
+        area.h
+        area.cpp
+        window.h
+        window.cpp
 
 )
 
